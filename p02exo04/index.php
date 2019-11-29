@@ -7,8 +7,8 @@
 <body>
   <p>
     <?php
-    $magnitute = '7';
-    switch($magnitute){
+    $magnitude = 9;
+    switch($magnitude){
       case 1;
       echo 'Micro-séisme impossible à ressentir.';
       break;

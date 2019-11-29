@@ -7,18 +7,20 @@
 <body>
   <p>
     <?php
-    $age = 1;
+    $age = 18;
     $gender = 'Femme';
-    if ($gender=='Homme' AND $age>=18){
+    /*if ($gender=='Homme' AND $age>=18){
       echo'Vous êtes un homme et vous êtes majeur';
     }
     else if($gender=='Homme'){
       echo'Vous êtes un homme et vous êtes mineur';
     }
     else if($gender=='Femme' AND $age>=18){
-      echo'Vous êtes un femme et vous êtes majeur';
+      echo'Vous êtes une femme et vous êtes majeur';
     }
-    else{echo'Vous êtes un femme et vous êtes mineur';}
+    else{echo'Vous êtes une femme et vous êtes mineur';}*/
+    echo $gender=='Homme'?'Vous êtes un homme':'Vous êtes une femme';
+    echo $age>=18?' et vous êtes majeur':' et vous êtes mineur';
     ?>
   </p>
 </body>
