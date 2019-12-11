@@ -1,0 +1,29 @@
+body{
+  background-image:url("../img/fond.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  font-weight: 600;
+  color:white;
+}
+.exo{
+  color:white;
+}
+#header{
+  text-align: center;
+  color:red;
+  /*height:300px;*/
+}
+p{
+  font-size: 20px;
+}
+h2{
+  /*height:200px;*/
+}
+form{
+  color: white;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
